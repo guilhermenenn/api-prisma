@@ -1,5 +1,5 @@
 
-import { createPost, deletePost, createPostWithUser, findPost, findPostById, updatePost } from "../models/Post.js";
+import { createPost, deletePost, findPost, findPostById, updatePost } from "../models/Post.js";
 
 export const addPost = async (req, res) => {
     try {
